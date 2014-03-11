@@ -20983,93 +20983,15 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 </library>
 <library name="microView-temp">
 <packages>
-<package name="MV-DIP16">
-<pad name="1" x="-8.89" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="2" x="-6.35" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="3" x="-3.81" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="4" x="-1.27" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="5" x="1.27" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="6" x="3.81" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="7" x="6.35" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="8" x="8.89" y="-8.89" drill="0.8" rot="R90"/>
-<rectangle x1="6.096" y1="-9.144" x2="6.604" y2="-8.636" layer="51"/>
-<rectangle x1="3.556" y1="-9.144" x2="4.064" y2="-8.636" layer="51"/>
-<rectangle x1="1.016" y1="-9.144" x2="1.524" y2="-8.636" layer="51"/>
-<rectangle x1="-1.524" y1="-9.144" x2="-1.016" y2="-8.636" layer="51"/>
-<rectangle x1="-4.064" y1="-9.144" x2="-3.556" y2="-8.636" layer="51"/>
-<rectangle x1="-6.604" y1="-9.144" x2="-6.096" y2="-8.636" layer="51"/>
-<rectangle x1="-9.144" y1="-9.144" x2="-8.636" y2="-8.636" layer="51"/>
-<rectangle x1="8.636" y1="-9.144" x2="9.144" y2="-8.636" layer="51"/>
-<pad name="9" x="8.89" y="8.89" drill="0.8" rot="R270"/>
-<pad name="10" x="6.35" y="8.89" drill="0.8" rot="R270"/>
-<pad name="11" x="3.81" y="8.89" drill="0.8" rot="R270"/>
-<pad name="12" x="1.27" y="8.89" drill="0.8" rot="R270"/>
-<pad name="13" x="-1.27" y="8.89" drill="0.8" rot="R270"/>
-<pad name="14" x="-3.81" y="8.89" drill="0.8" rot="R270"/>
-<pad name="15" x="-6.35" y="8.89" drill="0.8" rot="R270"/>
-<pad name="16" x="-8.89" y="8.89" drill="0.8" rot="R270"/>
-<rectangle x1="-6.604" y1="8.636" x2="-6.096" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="-4.064" y1="8.636" x2="-3.556" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="-1.524" y1="8.636" x2="-1.016" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="1.016" y1="8.636" x2="1.524" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="3.556" y1="8.636" x2="4.064" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="6.096" y1="8.636" x2="6.604" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="8.636" y1="8.636" x2="9.144" y2="9.144" layer="51" rot="R180"/>
-<rectangle x1="-9.144" y1="8.636" x2="-8.636" y2="9.144" layer="51" rot="R180"/>
-<wire x1="-10.25" y1="-10.25" x2="-10.25" y2="-5.05" width="0.127" layer="20"/>
-<wire x1="-10.25" y1="-5.05" x2="-9.1" y2="-5.05" width="0.127" layer="20"/>
-<wire x1="-9.09" y1="-3.95" x2="-10.25" y2="-3.95" width="0.127" layer="20"/>
-<wire x1="-10.25" y1="-3.95" x2="-10.25" y2="3.95" width="0.127" layer="20"/>
-<wire x1="-10.25" y1="3.95" x2="-9.1" y2="3.95" width="0.127" layer="20"/>
-<wire x1="-9.1" y1="3.95" x2="-8.6" y2="4.5" width="0.127" layer="20" curve="90"/>
-<wire x1="-9.1" y1="5.05" x2="-10.25" y2="5.05" width="0.127" layer="20"/>
-<wire x1="-10.25" y1="5.05" x2="-10.25" y2="10.25" width="0.127" layer="20"/>
-<wire x1="-10.25" y1="10.25" x2="-8.19" y2="10.25" width="0.127" layer="20"/>
-<wire x1="-8" y1="9.8" x2="-7.5" y2="9.25" width="0.127" layer="20" curve="90"/>
-<wire x1="-7.5" y1="9.25" x2="-7" y2="9.8" width="0.127" layer="20" curve="90"/>
-<wire x1="-6.81" y1="10.25" x2="6.81" y2="10.25" width="0.127" layer="20"/>
-<wire x1="8.19" y1="10.25" x2="10.25" y2="10.25" width="0.127" layer="20"/>
-<wire x1="-8" y1="9.8" x2="-8.19" y2="10.25" width="0.127" layer="20"/>
-<wire x1="-7" y1="9.8" x2="-6.81" y2="10.25" width="0.127" layer="20"/>
-<wire x1="7" y1="9.8" x2="7.5" y2="9.25" width="0.127" layer="20" curve="90"/>
-<wire x1="7.5" y1="9.25" x2="8" y2="9.8" width="0.127" layer="20" curve="90"/>
-<wire x1="8" y1="9.8" x2="8.19" y2="10.25" width="0.127" layer="20"/>
-<wire x1="7" y1="9.8" x2="6.81" y2="10.25" width="0.127" layer="20"/>
-<wire x1="-9.1" y1="5.05" x2="-8.6" y2="4.5" width="0.127" layer="20" curve="-90"/>
-<wire x1="-9.1" y1="-5.05" x2="-8.6" y2="-4.5" width="0.127" layer="20" curve="90"/>
-<wire x1="-9.1" y1="-3.95" x2="-8.6" y2="-4.5" width="0.127" layer="20" curve="-90"/>
-<wire x1="10.25" y1="10.25" x2="10.25" y2="5.05" width="0.127" layer="20"/>
-<wire x1="10.25" y1="5.05" x2="9.1" y2="5.05" width="0.127" layer="20"/>
-<wire x1="9.09" y1="3.95" x2="10.25" y2="3.95" width="0.127" layer="20"/>
-<wire x1="10.25" y1="3.95" x2="10.25" y2="-3.95" width="0.127" layer="20"/>
-<wire x1="10.25" y1="-3.95" x2="9.1" y2="-3.95" width="0.127" layer="20"/>
-<wire x1="9.1" y1="-3.95" x2="8.6" y2="-4.5" width="0.127" layer="20" curve="90"/>
-<wire x1="9.1" y1="-5.05" x2="10.25" y2="-5.05" width="0.127" layer="20"/>
-<wire x1="10.25" y1="-5.05" x2="10.25" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="10.25" y1="-10.25" x2="8.19" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="8" y1="-9.8" x2="7.5" y2="-9.25" width="0.127" layer="20" curve="90"/>
-<wire x1="7.5" y1="-9.25" x2="7" y2="-9.8" width="0.127" layer="20" curve="90"/>
-<wire x1="6.81" y1="-10.25" x2="-6.81" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="-8.19" y1="-10.25" x2="-10.25" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="8" y1="-9.8" x2="8.19" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="7" y1="-9.8" x2="6.81" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="-7" y1="-9.8" x2="-7.5" y2="-9.25" width="0.127" layer="20" curve="90"/>
-<wire x1="-7.5" y1="-9.25" x2="-8" y2="-9.8" width="0.127" layer="20" curve="90"/>
-<wire x1="-8" y1="-9.8" x2="-8.19" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="-7" y1="-9.8" x2="-6.81" y2="-10.25" width="0.127" layer="20"/>
-<wire x1="9.1" y1="-5.05" x2="8.6" y2="-4.5" width="0.127" layer="20" curve="-90"/>
-<wire x1="9.1" y1="5.05" x2="8.6" y2="4.5" width="0.127" layer="20" curve="90"/>
-<wire x1="9.1" y1="3.95" x2="8.6" y2="4.5" width="0.127" layer="20" curve="-90"/>
-</package>
 <package name="MV-DIP16-NODIMENSION">
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="0.8" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="0.8" rot="R90"/>
-<pad name="8" x="17.78" y="0" drill="0.8" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -21078,14 +21000,14 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-<pad name="9" x="17.78" y="17.78" drill="0.8" rot="R270"/>
-<pad name="10" x="15.24" y="17.78" drill="0.8" rot="R270"/>
-<pad name="11" x="12.7" y="17.78" drill="0.8" rot="R270"/>
-<pad name="12" x="10.16" y="17.78" drill="0.8" rot="R270"/>
-<pad name="13" x="7.62" y="17.78" drill="0.8" rot="R270"/>
-<pad name="14" x="5.08" y="17.78" drill="0.8" rot="R270"/>
-<pad name="15" x="2.54" y="17.78" drill="0.8" rot="R270"/>
-<pad name="16" x="0" y="17.78" drill="0.8" rot="R270"/>
+<pad name="9" x="17.78" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="10" x="15.24" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="11" x="12.7" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="12" x="10.16" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="13" x="7.62" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="14" x="5.08" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="15" x="2.54" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="16" x="0" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
 <rectangle x1="2.286" y1="17.526" x2="2.794" y2="18.034" layer="51" rot="R180"/>
 <rectangle x1="4.826" y1="17.526" x2="5.334" y2="18.034" layer="51" rot="R180"/>
 <rectangle x1="7.366" y1="17.526" x2="7.874" y2="18.034" layer="51" rot="R180"/>
@@ -21489,6 +21411,78 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <text x="-3.81" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="MV-DIP16">
+<pad name="1" x="-8.89" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="2" x="-6.35" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="3" x="-3.81" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="4" x="-1.27" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="5" x="1.27" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="6" x="3.81" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="7" x="6.35" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="8" x="8.89" y="-9.017" drill="1.016" rot="R90"/>
+<rectangle x1="6.096" y1="-9.144" x2="6.604" y2="-8.636" layer="51"/>
+<rectangle x1="3.556" y1="-9.144" x2="4.064" y2="-8.636" layer="51"/>
+<rectangle x1="1.016" y1="-9.144" x2="1.524" y2="-8.636" layer="51"/>
+<rectangle x1="-1.524" y1="-9.144" x2="-1.016" y2="-8.636" layer="51"/>
+<rectangle x1="-4.064" y1="-9.144" x2="-3.556" y2="-8.636" layer="51"/>
+<rectangle x1="-6.604" y1="-9.144" x2="-6.096" y2="-8.636" layer="51"/>
+<rectangle x1="-9.144" y1="-9.144" x2="-8.636" y2="-8.636" layer="51"/>
+<rectangle x1="8.636" y1="-9.144" x2="9.144" y2="-8.636" layer="51"/>
+<pad name="9" x="8.89" y="8.763" drill="1.016" rot="R270"/>
+<pad name="10" x="6.35" y="9.017" drill="1.016" rot="R270"/>
+<pad name="11" x="3.81" y="8.763" drill="1.016" rot="R270"/>
+<pad name="12" x="1.27" y="9.017" drill="1.016" rot="R270"/>
+<pad name="13" x="-1.27" y="8.763" drill="1.016" rot="R270"/>
+<pad name="14" x="-3.81" y="9.017" drill="1.016" rot="R270"/>
+<pad name="15" x="-6.35" y="8.763" drill="1.016" rot="R270"/>
+<pad name="16" x="-8.89" y="9.017" drill="1.016" rot="R270"/>
+<rectangle x1="-6.604" y1="8.636" x2="-6.096" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-4.064" y1="8.636" x2="-3.556" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-1.524" y1="8.636" x2="-1.016" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="1.016" y1="8.636" x2="1.524" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="3.556" y1="8.636" x2="4.064" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="6.096" y1="8.636" x2="6.604" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="8.636" y1="8.636" x2="9.144" y2="9.144" layer="51" rot="R180"/>
+<rectangle x1="-9.144" y1="8.636" x2="-8.636" y2="9.144" layer="51" rot="R180"/>
+<wire x1="-10.25" y1="-10.25" x2="-10.25" y2="-5.05" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="-5.05" x2="-9.1" y2="-5.05" width="0.127" layer="51"/>
+<wire x1="-9.09" y1="-3.95" x2="-9.1" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-9.1" y1="-3.95" x2="-10.25" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="-3.95" x2="-10.25" y2="3.95" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="3.95" x2="-9.1" y2="3.95" width="0.127" layer="51"/>
+<wire x1="-9.1" y1="5.05" x2="-10.25" y2="5.05" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="5.05" x2="-10.25" y2="10.25" width="0.127" layer="51"/>
+<wire x1="-10.25" y1="10.25" x2="-8.19" y2="10.25" width="0.127" layer="51"/>
+<wire x1="-6.81" y1="10.25" x2="4.31" y2="10.25" width="0.127" layer="51"/>
+<wire x1="5.69" y1="10.25" x2="10.25" y2="10.25" width="0.127" layer="51"/>
+<wire x1="-8" y1="9.8" x2="-8.19" y2="10.25" width="0.127" layer="51"/>
+<wire x1="-7" y1="9.8" x2="-6.81" y2="10.25" width="0.127" layer="51"/>
+<wire x1="5.5" y1="9.8" x2="5.69" y2="10.25" width="0.127" layer="51"/>
+<wire x1="4.5" y1="9.8" x2="4.31" y2="10.25" width="0.127" layer="51"/>
+<wire x1="10.25" y1="10.25" x2="10.25" y2="5.05" width="0.127" layer="51"/>
+<wire x1="10.25" y1="5.05" x2="9.1" y2="5.05" width="0.127" layer="51"/>
+<wire x1="9.09" y1="3.95" x2="9.1" y2="3.95" width="0.127" layer="51"/>
+<wire x1="9.1" y1="3.95" x2="10.25" y2="3.95" width="0.127" layer="51"/>
+<wire x1="10.25" y1="3.95" x2="10.25" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="10.25" y1="-3.95" x2="9.1" y2="-3.95" width="0.127" layer="51"/>
+<wire x1="9.1" y1="-5.05" x2="10.25" y2="-5.05" width="0.127" layer="51"/>
+<wire x1="10.25" y1="-5.05" x2="10.25" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="10.25" y1="-10.25" x2="8.19" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="6.81" y1="-10.25" x2="-6.81" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="-8.19" y1="-10.25" x2="-10.25" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="8" y1="-9.8" x2="8.19" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="7" y1="-9.8" x2="6.81" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="-8" y1="-9.8" x2="-8.19" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="-7" y1="-9.8" x2="-6.81" y2="-10.25" width="0.127" layer="51"/>
+<wire x1="-9.1" y1="-5.05" x2="-9.1" y2="-3.95" width="0.127" layer="51" curve="180"/>
+<wire x1="9.1" y1="-5.05" x2="9.1" y2="-3.95" width="0.127" layer="51" curve="-180"/>
+<wire x1="-9.1" y1="3.95" x2="-9.1" y2="5.05" width="0.127" layer="51" curve="180"/>
+<wire x1="9.1" y1="3.95" x2="9.1" y2="5.05" width="0.127" layer="51" curve="-180"/>
+<wire x1="-8" y1="-9.8" x2="-7" y2="-9.8" width="0.127" layer="51" curve="-180"/>
+<wire x1="7" y1="-9.8" x2="8" y2="-9.8" width="0.127" layer="51" curve="-180"/>
+<wire x1="-7" y1="9.8" x2="-8" y2="9.8" width="0.127" layer="51" curve="-180"/>
+<wire x1="5.5" y1="9.8" x2="4.5" y2="9.8" width="0.127" layer="51" curve="-180"/>
+</package>
 </packages>
 <symbols>
 <symbol name="MICROVIEW-16">
@@ -21829,7 +21823,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="U$1" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="C7" library="SparkFun-Capacitors" deviceset="0.1UF-25V(+80/-20%)(0603)" device="" value="0.1uF"/>
 <part name="U$2" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
-<part name="J1" library="microView-temp" deviceset="MICROVIEW-16" device="ND"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="JP2" library="microView-temp" deviceset="USB" device="A-SMD-MALE"/>
@@ -21838,6 +21831,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <part name="LOGO3" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="FID1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="FID2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
+<part name="J2" library="microView-temp" deviceset="MICROVIEW-16" device="ND"/>
 </parts>
 <sheets>
 <sheet>
@@ -21902,7 +21896,6 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="U$1" gate="G$1" x="193.04" y="147.32"/>
 <instance part="C7" gate="G$1" x="99.06" y="76.2" rot="MR90"/>
 <instance part="U$2" gate="G$1" x="81.28" y="147.32"/>
-<instance part="J1" gate="G1" x="116.84" y="66.04"/>
 <instance part="SUPPLY3" gate="G$1" x="129.54" y="83.82"/>
 <instance part="GND3" gate="1" x="104.14" y="50.8"/>
 <instance part="JP2" gate="G$1" x="30.48" y="137.16" rot="R180"/>
@@ -21911,6 +21904,7 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <instance part="LOGO3" gate="G$1" x="25.4" y="2.54"/>
 <instance part="FID1" gate="G$1" x="246.38" y="33.02"/>
 <instance part="FID2" gate="G$1" x="246.38" y="25.4"/>
+<instance part="J2" gate="G1" x="116.84" y="66.04"/>
 </instances>
 <busses>
 </busses>
@@ -21954,10 +21948,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="193.04" y1="147.32" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G1" pin="5V"/>
 <wire x1="127" y1="73.66" x2="129.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="73.66" x2="129.54" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY3" gate="G$1" pin="5V"/>
+<pinref part="J2" gate="G1" pin="5V"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -22013,10 +22007,10 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <wire x1="193.04" y1="114.3" x2="193.04" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G1" pin="GND"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="106.68" y1="58.42" x2="104.14" y2="58.42" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="58.42" x2="104.14" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G1" pin="GND"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -22140,9 +22134,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="132.08" y="142.24" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G1" pin="RXD"/>
 <wire x1="127" y1="58.42" x2="129.54" y2="58.42" width="0.1524" layer="91"/>
 <label x="129.54" y="58.42" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G1" pin="RXD"/>
 </segment>
 </net>
 <net name="RXD" class="0">
@@ -22152,9 +22146,9 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <label x="132.08" y="139.7" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G1" pin="TXD"/>
 <wire x1="127" y1="60.96" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
 <label x="129.54" y="60.96" size="1.27" layer="95" xref="yes"/>
+<pinref part="J2" gate="G1" pin="TXD"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -22192,8 +22186,8 @@ Standard schematic elements and footprints for 5mm, 3mm, 1206, and 0603 sized LE
 <net name="N$2" class="0">
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
-<pinref part="J1" gate="G1" pin="RST"/>
 <wire x1="104.14" y1="76.2" x2="106.68" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="J2" gate="G1" pin="RST"/>
 </segment>
 </net>
 </nets>
