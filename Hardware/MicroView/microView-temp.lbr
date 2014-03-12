@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -213,14 +213,14 @@
 <hole x="0.4" y="-3.4" drill="0.8"/>
 </package>
 <package name="MV-DIP16">
-<pad name="1" x="-8.89" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="2" x="-6.35" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="3" x="-3.81" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="4" x="-1.27" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="5" x="1.27" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="6" x="3.81" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="7" x="6.35" y="-8.89" drill="0.8" rot="R90"/>
-<pad name="8" x="8.89" y="-8.89" drill="0.8" rot="R90"/>
+<pad name="1" x="-8.89" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="2" x="-6.35" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="3" x="-3.81" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="4" x="-1.27" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="5" x="1.27" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="6" x="3.81" y="-9.017" drill="1.016" rot="R90"/>
+<pad name="7" x="6.35" y="-8.763" drill="1.016" rot="R90"/>
+<pad name="8" x="8.89" y="-9.017" drill="1.016" rot="R90"/>
 <rectangle x1="6.096" y1="-9.144" x2="6.604" y2="-8.636" layer="51"/>
 <rectangle x1="3.556" y1="-9.144" x2="4.064" y2="-8.636" layer="51"/>
 <rectangle x1="1.016" y1="-9.144" x2="1.524" y2="-8.636" layer="51"/>
@@ -229,14 +229,14 @@
 <rectangle x1="-6.604" y1="-9.144" x2="-6.096" y2="-8.636" layer="51"/>
 <rectangle x1="-9.144" y1="-9.144" x2="-8.636" y2="-8.636" layer="51"/>
 <rectangle x1="8.636" y1="-9.144" x2="9.144" y2="-8.636" layer="51"/>
-<pad name="9" x="8.89" y="8.89" drill="0.8" rot="R270"/>
-<pad name="10" x="6.35" y="8.89" drill="0.8" rot="R270"/>
-<pad name="11" x="3.81" y="8.89" drill="0.8" rot="R270"/>
-<pad name="12" x="1.27" y="8.89" drill="0.8" rot="R270"/>
-<pad name="13" x="-1.27" y="8.89" drill="0.8" rot="R270"/>
-<pad name="14" x="-3.81" y="8.89" drill="0.8" rot="R270"/>
-<pad name="15" x="-6.35" y="8.89" drill="0.8" rot="R270"/>
-<pad name="16" x="-8.89" y="8.89" drill="0.8" rot="R270"/>
+<pad name="9" x="8.89" y="8.763" drill="1.016" rot="R270"/>
+<pad name="10" x="6.35" y="9.017" drill="1.016" rot="R270"/>
+<pad name="11" x="3.81" y="8.763" drill="1.016" rot="R270"/>
+<pad name="12" x="1.27" y="9.017" drill="1.016" rot="R270"/>
+<pad name="13" x="-1.27" y="8.763" drill="1.016" rot="R270"/>
+<pad name="14" x="-3.81" y="9.017" drill="1.016" rot="R270"/>
+<pad name="15" x="-6.35" y="8.763" drill="1.016" rot="R270"/>
+<pad name="16" x="-8.89" y="9.017" drill="1.016" rot="R270"/>
 <rectangle x1="-6.604" y1="8.636" x2="-6.096" y2="9.144" layer="51" rot="R180"/>
 <rectangle x1="-4.064" y1="8.636" x2="-3.556" y2="9.144" layer="51" rot="R180"/>
 <rectangle x1="-1.524" y1="8.636" x2="-1.016" y2="9.144" layer="51" rot="R180"/>
@@ -312,14 +312,14 @@
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 </package>
 <package name="MV-DIP16-NODIMENSION">
-<pad name="1" x="0" y="0" drill="0.8" shape="square" rot="R90"/>
-<pad name="2" x="2.54" y="0" drill="0.8" rot="R90"/>
-<pad name="3" x="5.08" y="0" drill="0.8" rot="R90"/>
-<pad name="4" x="7.62" y="0" drill="0.8" rot="R90"/>
-<pad name="5" x="10.16" y="0" drill="0.8" rot="R90"/>
-<pad name="6" x="12.7" y="0" drill="0.8" rot="R90"/>
-<pad name="7" x="15.24" y="0" drill="0.8" rot="R90"/>
-<pad name="8" x="17.78" y="0" drill="0.8" rot="R90"/>
+<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" shape="square" rot="R90"/>
+<pad name="2" x="2.54" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="3" x="5.08" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="4" x="7.62" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="5" x="10.16" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="6" x="12.7" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="7" x="15.24" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
+<pad name="8" x="17.78" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
 <rectangle x1="14.986" y1="-0.254" x2="15.494" y2="0.254" layer="51"/>
 <rectangle x1="12.446" y1="-0.254" x2="12.954" y2="0.254" layer="51"/>
 <rectangle x1="9.906" y1="-0.254" x2="10.414" y2="0.254" layer="51"/>
@@ -328,14 +328,14 @@
 <rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
 <rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
 <rectangle x1="17.526" y1="-0.254" x2="18.034" y2="0.254" layer="51"/>
-<pad name="9" x="17.78" y="17.78" drill="0.8" rot="R270"/>
-<pad name="10" x="15.24" y="17.78" drill="0.8" rot="R270"/>
-<pad name="11" x="12.7" y="17.78" drill="0.8" rot="R270"/>
-<pad name="12" x="10.16" y="17.78" drill="0.8" rot="R270"/>
-<pad name="13" x="7.62" y="17.78" drill="0.8" rot="R270"/>
-<pad name="14" x="5.08" y="17.78" drill="0.8" rot="R270"/>
-<pad name="15" x="2.54" y="17.78" drill="0.8" rot="R270"/>
-<pad name="16" x="0" y="17.78" drill="0.8" rot="R270"/>
+<pad name="9" x="17.78" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="10" x="15.24" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="11" x="12.7" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="12" x="10.16" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="13" x="7.62" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="14" x="5.08" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="15" x="2.54" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
+<pad name="16" x="0" y="17.78" drill="1.016" diameter="1.8796" rot="R270"/>
 <rectangle x1="2.286" y1="17.526" x2="2.794" y2="18.034" layer="51" rot="R180"/>
 <rectangle x1="4.826" y1="17.526" x2="5.334" y2="18.034" layer="51" rot="R180"/>
 <rectangle x1="7.366" y1="17.526" x2="7.874" y2="18.034" layer="51" rot="R180"/>
