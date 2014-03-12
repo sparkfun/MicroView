@@ -137,20 +137,20 @@
 <wire x1="27.94" y1="0" x2="27.94" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="27.94" y1="20.32" x2="0" y2="20.32" width="0.2032" layer="20"/>
 <wire x1="0" y1="20.32" x2="0" y2="0" width="0.2032" layer="20"/>
-<text x="8.89" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">VIN</text>
-<text x="11.43" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">5V</text>
-<text x="13.97" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">6</text>
-<text x="16.51" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">5</text>
-<text x="19.05" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">3</text>
-<text x="21.59" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">2</text>
-<text x="24.13" y="17.399" size="1.016" layer="21" font="vector" ratio="15" align="center">RX</text>
-<text x="8.89" y="2.8448" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="center">RST</text>
-<text x="11.43" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A5</text>
-<text x="13.97" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A4</text>
-<text x="16.51" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A3</text>
-<text x="19.05" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A2</text>
-<text x="21.59" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A1</text>
-<text x="24.13" y="2.8956" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A0</text>
+<text x="8.89" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">VIN</text>
+<text x="11.43" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">5V</text>
+<text x="13.97" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">6</text>
+<text x="16.51" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">5</text>
+<text x="19.05" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">3</text>
+<text x="21.59" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">2</text>
+<text x="24.13" y="17.145" size="1.016" layer="21" font="vector" ratio="15" align="center">RX</text>
+<text x="8.89" y="3.0988" size="0.889" layer="21" font="vector" ratio="15" rot="R180" align="center">RST</text>
+<text x="11.43" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A5</text>
+<text x="13.97" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A4</text>
+<text x="16.51" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A3</text>
+<text x="19.05" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A2</text>
+<text x="21.59" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A1</text>
+<text x="24.13" y="3.1496" size="1.016" layer="21" font="vector" ratio="15" rot="R180" align="center">A0</text>
 <text x="8.89" y="18.034" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">VIN</text>
 <text x="11.43" y="18.034" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">5V</text>
 <text x="13.97" y="18.034" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">6</text>
