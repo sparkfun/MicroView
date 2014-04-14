@@ -20097,39 +20097,39 @@ LilyPad 1206- DIO-09909&lt;br&gt;
 <text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="USB-A-SMT-MALE">
-<wire x1="6" y1="17.3682" x2="-6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="6" y1="2.5682" x2="-6" y2="2.5682" width="0.2032" layer="21"/>
-<wire x1="6" y1="2.5682" x2="6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="-6" y1="2.5682" x2="-6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="6" y1="2.5682" x2="6" y2="1.5682" width="0.2032" layer="21"/>
-<wire x1="-6" y1="2.5682" x2="-6" y2="1.5682" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-1.4318" x2="4" y2="-1.4318" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="13.0682" x2="1.9" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="13.0682" x2="1.9" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="10.7682" x2="4.3" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="4.3" y1="10.7682" x2="4.3" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="-1.9" y1="13.0682" x2="-4.3" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="13.0682" x2="-4.3" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="10.7682" x2="-1.9" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="-1.9" y1="10.7682" x2="-1.9" y2="13.0682" width="0.2032" layer="51"/>
-<smd name="D+1" x="1.027" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="D-1" x="-1.027" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="GND1" x="3.5508" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<pad name="P$1" x="5.85" y="-0.2618" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
-<pad name="P$3" x="-5.85" y="-0.2618" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
-<smd name="VBUS1" x="-3.5" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<text x="-2.7" y="-6.2818" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.4" y="3.4682" size="1.27" layer="51">PCB Edge</text>
-<hole x="2.25" y="-0.3318" drill="1.1"/>
-<hole x="-2.25" y="-0.3318" drill="1.1"/>
-<hole x="-5.85" y="-0.6618" drill="0.8"/>
-<hole x="-5.85" y="-1.0618" drill="0.8"/>
-<hole x="-5.85" y="0.1382" drill="0.8"/>
-<hole x="-5.85" y="0.5382" drill="0.8"/>
-<hole x="5.85" y="-0.6618" drill="0.8"/>
-<hole x="5.85" y="-1.0618" drill="0.8"/>
-<hole x="5.85" y="0.1382" drill="0.8"/>
-<hole x="5.85" y="0.5382" drill="0.8"/>
+<wire x1="6" y1="14.58" x2="-6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="6" y1="0" x2="-6" y2="0" width="0.2032" layer="21"/>
+<wire x1="6" y1="0" x2="6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="-6" y1="0" x2="-6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="6" y1="0" x2="6" y2="-1.22" width="0.2032" layer="21"/>
+<wire x1="-6" y1="0" x2="-6" y2="-1.22" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.22" x2="4" y2="-4.22" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="10.28" x2="1.9" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="10.28" x2="1.9" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="7.98" x2="4.3" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="4.3" y1="7.98" x2="4.3" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="10.28" x2="-4.3" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="10.28" x2="-4.3" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="7.98" x2="-1.9" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="7.98" x2="-1.9" y2="10.28" width="0.2032" layer="51"/>
+<smd name="D+1" x="1.027" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<smd name="D-1" x="-1.027" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<smd name="GND1" x="3.5508" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<pad name="P$1" x="5.85" y="-3.05" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
+<pad name="P$3" x="-5.85" y="-3.05" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
+<smd name="VBUS1" x="-3.5" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<text x="-2.7" y="-9.07" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.4" y="0.68" size="1.27" layer="51">PCB Edge</text>
+<hole x="2.25" y="-3.12" drill="1.1"/>
+<hole x="-2.25" y="-3.12" drill="1.1"/>
+<hole x="-5.85" y="-3.45" drill="0.8"/>
+<hole x="-5.85" y="-3.85" drill="0.8"/>
+<hole x="-5.85" y="-2.65" drill="0.8"/>
+<hole x="-5.85" y="-2.25" drill="0.8"/>
+<hole x="5.85" y="-3.45" drill="0.8"/>
+<hole x="5.85" y="-3.85" drill="0.8"/>
+<hole x="5.85" y="-2.65" drill="0.8"/>
+<hole x="5.85" y="-2.25" drill="0.8"/>
 </package>
 <package name="USB-MINIB-OLD">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
@@ -20828,7 +20828,7 @@ Resettable Fuse. Spark Fun Electronics SKU : COM-08357</description>
 <sheets>
 <sheet>
 <plain>
-<text x="240.03" y="6.858" size="3.048" layer="94">v01</text>
+<text x="240.03" y="6.858" size="3.048" layer="94">v02</text>
 <text x="150.622" y="6.858" size="3.048" layer="94">Jim Lindblom, JP Liew, Marchus Schappi</text>
 </plain>
 <instances>
