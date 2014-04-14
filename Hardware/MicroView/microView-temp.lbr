@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
+<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -560,39 +560,39 @@
 <text x="-3.81" y="0" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
 <package name="USB-A-SMT-MALE">
-<wire x1="6" y1="17.3682" x2="-6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="6" y1="2.5682" x2="-6" y2="2.5682" width="0.2032" layer="21"/>
-<wire x1="6" y1="2.5682" x2="6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="-6" y1="2.5682" x2="-6" y2="17.3682" width="0.2032" layer="51"/>
-<wire x1="6" y1="2.5682" x2="6" y2="1.5682" width="0.2032" layer="21"/>
-<wire x1="-6" y1="2.5682" x2="-6" y2="1.5682" width="0.2032" layer="21"/>
-<wire x1="-4" y1="-1.4318" x2="4" y2="-1.4318" width="0.2032" layer="21"/>
-<wire x1="4.3" y1="13.0682" x2="1.9" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="13.0682" x2="1.9" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="1.9" y1="10.7682" x2="4.3" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="4.3" y1="10.7682" x2="4.3" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="-1.9" y1="13.0682" x2="-4.3" y2="13.0682" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="13.0682" x2="-4.3" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="-4.3" y1="10.7682" x2="-1.9" y2="10.7682" width="0.2032" layer="51"/>
-<wire x1="-1.9" y1="10.7682" x2="-1.9" y2="13.0682" width="0.2032" layer="51"/>
-<smd name="D+1" x="1.027" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="D-1" x="-1.027" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<smd name="GND1" x="3.5508" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<pad name="P$1" x="5.85" y="-0.2618" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
-<pad name="P$3" x="-5.85" y="-0.2618" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
-<smd name="VBUS1" x="-3.5" y="-3.0818" dx="2.5" dy="0.8" layer="1" rot="R270"/>
-<text x="-2.7" y="-6.2818" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.4" y="3.4682" size="1.27" layer="51">PCB Edge</text>
-<hole x="2.25" y="-0.3318" drill="1.1"/>
-<hole x="-2.25" y="-0.3318" drill="1.1"/>
-<hole x="-5.85" y="-0.6618" drill="0.8"/>
-<hole x="-5.85" y="-1.0618" drill="0.8"/>
-<hole x="-5.85" y="0.1382" drill="0.8"/>
-<hole x="-5.85" y="0.5382" drill="0.8"/>
-<hole x="5.85" y="-0.6618" drill="0.8"/>
-<hole x="5.85" y="-1.0618" drill="0.8"/>
-<hole x="5.85" y="0.1382" drill="0.8"/>
-<hole x="5.85" y="0.5382" drill="0.8"/>
+<wire x1="6" y1="14.58" x2="-6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="6" y1="0" x2="-6" y2="0" width="0.2032" layer="21"/>
+<wire x1="6" y1="0" x2="6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="-6" y1="0" x2="-6" y2="14.58" width="0.2032" layer="51"/>
+<wire x1="6" y1="0" x2="6" y2="-1.22" width="0.2032" layer="21"/>
+<wire x1="-6" y1="0" x2="-6" y2="-1.22" width="0.2032" layer="21"/>
+<wire x1="-4" y1="-4.22" x2="4" y2="-4.22" width="0.2032" layer="21"/>
+<wire x1="4.3" y1="10.28" x2="1.9" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="10.28" x2="1.9" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="1.9" y1="7.98" x2="4.3" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="4.3" y1="7.98" x2="4.3" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="10.28" x2="-4.3" y2="10.28" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="10.28" x2="-4.3" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="-4.3" y1="7.98" x2="-1.9" y2="7.98" width="0.2032" layer="51"/>
+<wire x1="-1.9" y1="7.98" x2="-1.9" y2="10.28" width="0.2032" layer="51"/>
+<smd name="D+1" x="1.027" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<smd name="D-1" x="-1.027" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<smd name="GND1" x="3.5508" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<pad name="P$1" x="5.85" y="-3.05" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
+<pad name="P$3" x="-5.85" y="-3.05" drill="0.8" diameter="1.778" shape="long" rot="R90"/>
+<smd name="VBUS1" x="-3.5" y="-5.87" dx="2.5" dy="0.8" layer="1" rot="R270"/>
+<text x="-2.7" y="-9.07" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.4" y="0.68" size="1.27" layer="51">PCB Edge</text>
+<hole x="2.25" y="-3.12" drill="1.1"/>
+<hole x="-2.25" y="-3.12" drill="1.1"/>
+<hole x="-5.85" y="-3.45" drill="0.8"/>
+<hole x="-5.85" y="-3.85" drill="0.8"/>
+<hole x="-5.85" y="-2.65" drill="0.8"/>
+<hole x="-5.85" y="-2.25" drill="0.8"/>
+<hole x="5.85" y="-3.45" drill="0.8"/>
+<hole x="5.85" y="-3.85" drill="0.8"/>
+<hole x="5.85" y="-2.65" drill="0.8"/>
+<hole x="5.85" y="-2.25" drill="0.8"/>
 </package>
 <package name="USB-MINIB-OLD">
 <description>&lt;b&gt;USB Series Mini-B Surface Mounted&lt;/b&gt;</description>
@@ -739,6 +739,33 @@
 <text x="-3.81" y="2.54" size="0.4064" layer="25">&gt;NAME</text>
 <text x="-3.81" y="-3.81" size="0.4064" layer="27">&gt;VALUE</text>
 </package>
+<package name="RESONATOR-PTH">
+<wire x1="-2.286" y1="1.778" x2="-2.286" y2="-1.778" width="0.2032" layer="21" curve="162.403081"/>
+<wire x1="2.286" y1="-1.778" x2="2.286" y2="1.778" width="0.2032" layer="21" curve="162.403081"/>
+<wire x1="-2.286" y1="-1.778" x2="2.286" y2="-1.778" width="0.2032" layer="21" curve="12.71932"/>
+<wire x1="2.286" y1="1.778" x2="-2.286" y2="1.778" width="0.2032" layer="21" curve="12.758496"/>
+<pad name="1" x="-2.54" y="0" drill="0.8" diameter="1.8796"/>
+<pad name="2" x="0" y="0" drill="0.8" diameter="1.8796"/>
+<pad name="3" x="2.54" y="0" drill="0.8" diameter="1.8796"/>
+</package>
+<package name="RESONATOR-SMD">
+<wire x1="1.8" y1="0.65" x2="1.8" y2="-0.65" width="0.2032" layer="21"/>
+<wire x1="-1.8" y1="-0.65" x2="-1.8" y2="0.65" width="0.2032" layer="21"/>
+<wire x1="-1.6" y1="0.65" x2="1.6" y2="0.65" width="0.127" layer="51"/>
+<wire x1="1.6" y1="0.65" x2="1.6" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="1.6" y1="-0.65" x2="-1.6" y2="-0.65" width="0.127" layer="51"/>
+<wire x1="-1.6" y1="-0.65" x2="-1.6" y2="0.65" width="0.127" layer="51"/>
+<smd name="1" x="-1.2" y="0" dx="0.7" dy="1.7" layer="1"/>
+<smd name="2" x="0" y="0" dx="0.7" dy="1.7" layer="1"/>
+<smd name="3" x="1.2" y="0" dx="0.7" dy="1.7" layer="1"/>
+<text x="-0.889" y="1.27" size="0.4064" layer="25">&gt;Name</text>
+<text x="-0.889" y="-1.524" size="0.4064" layer="27">&gt;Value</text>
+</package>
+<package name="1X03_2MM">
+<pad name="1" x="0" y="0" drill="0.7" diameter="1.6256"/>
+<pad name="2" x="2" y="0" drill="0.7" diameter="1.6256"/>
+<pad name="3" x="4" y="0" drill="0.7" diameter="1.6256"/>
+</package>
 </packages>
 <symbols>
 <symbol name="OLED0.66">
@@ -832,6 +859,38 @@
 <pin name="GND" x="-2.54" y="0" visible="pad" length="short"/>
 <pin name="VBUS" x="-2.54" y="2.54" visible="pad" length="short"/>
 <text x="3.81" y="0" size="2.54" layer="94" rot="R90">USB</text>
+</symbol>
+<symbol name="RESONATOR">
+<wire x1="1.016" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="1.524" x2="-0.381" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="-0.381" y1="-1.524" x2="0.381" y2="-1.524" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="-1.524" x2="0.381" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.524" x2="-0.381" y2="1.524" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="1.778" x2="1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="0" x2="1.016" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="1.778" x2="-1.016" y2="0" width="0.1524" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.016" y2="-1.778" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-2.032" x2="2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-2.032" x2="1.778" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="3.302" y1="-3.048" x2="2.54" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.048" x2="1.778" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-3.048" x2="2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-3.048" x2="-2.54" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.048" x2="-3.302" y2="-3.048" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-3.048" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-1.778" y1="-2.032" x2="-2.54" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.032" x2="-3.302" y2="-2.032" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-2.032" x2="-2.54" y2="0" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-5.08" x2="0" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="-5.08" x2="0" y2="-7.62" width="0.1524" layer="94"/>
+<pin name="1" x="-2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1"/>
+<pin name="2" x="0" y="-7.62" visible="off" length="point" direction="pas" swaplevel="1" rot="R90"/>
+<pin name="3" x="2.54" y="0" visible="off" length="point" direction="pas" swaplevel="1" rot="R180"/>
+<text x="2.54" y="1.016" size="1.778" layer="95">&gt;NAME</text>
+<text x="2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1151,6 +1210,35 @@
 <connect gate="G$1" pin="D-" pad="D-"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VBUS" pad="VBUS"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RESONATOR" prefix="Y">
+<description>&lt;b&gt;Resonator&lt;/b&gt;
+Small SMD resonator. This is the itty bitty 10/20MHz resonators with built in caps. CSTCE10M0G55 and CSTCE20M0V53. Footprint has been reviewed closely but hasn't been tested yet.</description>
+<gates>
+<gate name="G$1" symbol="RESONATOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="RESONATOR-PTH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="SMD" package="RESONATOR-SMD">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
