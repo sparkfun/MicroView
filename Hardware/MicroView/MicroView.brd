@@ -134,32 +134,30 @@
 <board>
 <plain>
 <text x="9.652" y="-8.128" size="0.889" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">GND</text>
-<text x="5.842" y="-7.874" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">A0</text>
+<text x="5.461" y="-7.366" size="1.016" layer="22" font="vector" ratio="15" rot="MR180" align="center">A0</text>
 <text x="3.81" y="-7.874" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">A1</text>
 <text x="1.27" y="-7.874" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">A2</text>
 <text x="-1.27" y="-7.874" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">A3</text>
-<text x="-3.81" y="-7.874" size="1.016" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">A4</text>
 <text x="-6.35" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-right">A5</text>
-<text x="-9.652" y="-7.874" size="0.889" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">RST</text>
-<text x="8.7884" y="7.9502" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">RX</text>
-<text x="6.2484" y="7.9502" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">TX</text>
-<text x="3.81" y="8.0264" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">2</text>
-<text x="1.27" y="8.255" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">3</text>
+<text x="-9.525" y="-7.874" size="0.889" layer="22" font="vector" ratio="15" rot="MR270" align="center-right">RST</text>
+<text x="8.7884" y="7.8232" size="0.889" layer="22" font="vector" ratio="15" rot="MR0" align="top-center">RX</text>
+<text x="3.81" y="8.001" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">2</text>
+<text x="1.27" y="8.001" size="0.889" layer="22" font="vector" ratio="15" rot="MR90" align="center-right">3</text>
 <text x="-3.81" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">6</text>
 <text x="-6.35" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">5V</text>
-<text x="-8.89" y="8.255" size="0.889" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">VIN</text>
-<text x="8.9662" y="7.9502" size="0.889" layer="21" font="vector" ratio="15" align="top-center">RX</text>
+<text x="-8.89" y="8.001" size="0.889" layer="22" font="vector" ratio="15" rot="MR270" align="center-left">VIN</text>
+<text x="8.4582" y="7.9502" size="0.889" layer="21" font="vector" ratio="15" align="top-center">RX</text>
 <text x="6.4262" y="7.9502" size="0.889" layer="21" font="vector" ratio="15" align="top-center">TX</text>
 <text x="3.81" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">2</text>
 <text x="1.27" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">3</text>
 <text x="-1.27" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">5</text>
-<text x="-8.89" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">VIN</text>
+<text x="-8.509" y="8.1026" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-right">VIN</text>
 <text x="9.652" y="-8.128" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="center-left">GND</text>
-<text x="6.35" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">A0</text>
+<text x="6.858" y="-7.366" size="1.016" layer="21" font="vector" ratio="15" align="center">A0</text>
 <text x="3.81" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">A1</text>
 <text x="1.27" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">A2</text>
 <text x="-1.27" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">A3</text>
-<text x="-3.81" y="-7.874" size="1.016" layer="21" font="vector" ratio="15" rot="R90" align="center-left">A4</text>
+<text x="-3.683" y="-7.366" size="1.016" layer="21" font="vector" ratio="15" align="center">A4</text>
 <text x="-9.652" y="-7.874" size="0.889" layer="21" font="vector" ratio="15" rot="R90" align="center-left">RST</text>
 <wire x1="-10.25" y1="-10.25" x2="-10.25" y2="-5.05" width="0.2032" layer="20"/>
 <wire x1="-10.25" y1="-3.95" x2="-10.25" y2="3.95" width="0.2032" layer="20"/>
@@ -199,9 +197,9 @@
 <wire x1="-9.1" y1="-3.95" x2="-9.1" y2="-5.05" width="0.2032" layer="20" curve="-180"/>
 <text x="7.62" y="-20.32" size="1.778" layer="51" ratio="15">Jim Lindblom, JP Liew, Marcus Schappi</text>
 <text x="1.27" y="-0.381" size="1.778" layer="21" font="vector" ratio="15" align="center">MicroView</text>
-<text x="8.255" y="6.35" size="0.889" layer="21" font="vector" ratio="15" align="center-right">13</text>
-<text x="4.445" y="4.445" size="0.889" layer="21" font="vector" ratio="15" align="center-right">12</text>
-<text x="0.889" y="6.35" size="0.889" layer="21" font="vector" ratio="15" align="center-right">11</text>
+<text x="8.382" y="6.35" size="0.889" layer="21" font="vector" ratio="15" align="center-right">13</text>
+<text x="4.572" y="4.445" size="0.889" layer="21" font="vector" ratio="15" align="center-right">12</text>
+<text x="1.016" y="6.35" size="0.889" layer="21" font="vector" ratio="15" align="center-right">11</text>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -1990,7 +1988,7 @@ design rules under a new name.</description>
 <via x="-1.651" y="-0.1524" extent="1-16" drill="0.381"/>
 <wire x1="-3.0226" y1="0.4" x2="-2.2034" y2="0.4" width="0.2032" layer="16"/>
 <wire x1="-2.2034" y1="0.4" x2="-1.651" y2="-0.1524" width="0.2032" layer="16"/>
-<via x="3.556" y="-6.731" extent="1-16" drill="0.381"/>
+<via x="2.794" y="-7.62" extent="1-16" drill="0.381"/>
 <wire x1="4.826" y1="-3.556" x2="4.445" y2="-3.175" width="0.254" layer="16"/>
 <wire x1="8.128" y1="-3.048" x2="8.128" y2="-4.064" width="0.254" layer="1"/>
 <wire x1="8.128" y1="-4.064" x2="8.001" y2="-4.191" width="0.254" layer="1"/>

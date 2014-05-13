@@ -17469,7 +17469,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
-<text x="238.506" y="6.858" size="3.048" layer="94" ratio="15">v03</text>
+<text x="238.506" y="6.858" size="3.048" layer="94" ratio="15">v10</text>
 <text x="149.606" y="6.604" size="3.048" layer="94" ratio="15">Jim Lindblom, JP Liew, Marchus Schappi</text>
 <wire x1="147.32" y1="35.56" x2="147.32" y2="45.72" width="0.2032" layer="94"/>
 <wire x1="147.32" y1="45.72" x2="147.32" y2="142.24" width="0.2032" layer="94"/>
