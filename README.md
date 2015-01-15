@@ -5,10 +5,11 @@ MicroView
 
 [*SparkFun Microview (DEV-12923)*](https://www.sparkfun.com/products/12923)
 
-The MicroView is a chip-sized Arduino with a built-in OLED.
+The MicroView is a chip-sized Arduino with a built-in OLED. Compatible with the MicroView USB Programmer linked below. 
 
 Repository Contents
 -------------------
+* **/Datasheets** - Datasheets for the OLED module
 * **/Enclosure** - 3D model of the standard Microview Enclosure
 * **/Fritzing** - Fritzing diagram of the MicroView
 * **/Hardware** - All Eagle design files (.brd, .sch)
@@ -18,6 +19,7 @@ Repository Contents
 Product Versions
 ----------------
 * [DEV-12923](https://www.sparkfun.com/products/12923)- Version 1.0
+* [DEV-12924](https://www.sparkfun.com/products/12924)- MicroView USB Programmer version 0.2
 
 License Information
 -------------------
