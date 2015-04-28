@@ -1,6 +1,7 @@
-
+NOTE: THIS DOCUMENTATION IS DEPRECATED.
+=======================================
 MicroView
-==========
+---------
 # MicroView Arduino Library
 Developed by [Geek Ammo Pty Ltd](http://www.geekammo.com) based on Arduino and other Open Source libraries. 
  
