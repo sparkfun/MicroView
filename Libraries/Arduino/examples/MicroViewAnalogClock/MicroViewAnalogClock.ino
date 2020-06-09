@@ -22,7 +22,7 @@ buy us a round!
 Distributed as-is; no warranty is given.
 *****************************************************************/
 #include <MicroView.h>
-#include <Time.h>
+#include <TimeLib.h>
 
 // Define how big the clock is. Don't make it larger than 23
 // This is the radius of the clock:
