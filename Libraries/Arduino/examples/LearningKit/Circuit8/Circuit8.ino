@@ -1,7 +1,7 @@
 #include <MicroView.h>
 // adapted from SparkFun Inventor Kit https://www.sparkfun.com/products/12001
 // Please download the original source code for detail comment of the source code
-// http://dlnmh9ip6v2uc.cloudfront.net/datasheets/Kits/SIK%20Guide%20Code.zip
+// http://cdn.sparkfun.com/datasheets/Kits/SIK%20Guide%20Code.zip
 
 const int buzzerPin = A0;
 const int songLength = 18;
